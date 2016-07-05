@@ -18,5 +18,12 @@ public class Compras {
         int tipoCacao;
         //INICIALIZACIÓN DE VARIABLE
         double valorPagar=0;
+        Scanner lector = new Scanner (System.in);
+       //ENTRADA
+        System.out.print("Ingrese el total de libras:");
+        cantLibras=lector.nextInt();
+        
+        System.out.print("Ingrese el tipo de cacao:");
+        tipoCacao=lector.nextInt();
        }
 }
