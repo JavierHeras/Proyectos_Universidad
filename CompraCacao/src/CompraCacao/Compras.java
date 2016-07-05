@@ -32,6 +32,9 @@ public class Compras {
         
         if(tipoCacao == 2){
         valorPagar =cantLibras *0.51;
+        
+        if(tipoCacao == 3){
+        valorPagar =cantLibras *0.52;
     }
         //SALIDA
         System.out.printf("El valor a pagar es: %.2f dólares\n",valorPagar);
