@@ -25,5 +25,13 @@ public class Compras {
         
         System.out.print("Ingrese el tipo de cacao:");
         tipoCacao=lector.nextInt();
+        // PROCESOS 
+        if(tipoCacao == 1){
+        valorPagar =cantLibras *0.50;
+    }
+        
+        if(tipoCacao == 2){
+        valorPagar =cantLibras *0.51;
+    }
        }
 }
